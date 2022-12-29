@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Montserrat:wght@400;700&family=Yanone+Kaffeesatz:wght@300;400&display=swap');
+
+body {
+  margin: 0;
+  background-image: url('Images/Hill.png');
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Inter';
+  font-style: normal;
+
+}
+
+
+.overlay {
+  position: absolute;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(226, 226, 226, 0.8);
+
+
+}
+
+.overlay nav {
+  position: fixed;
+  margin: 3em auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: block;
+
+
+}
+
+.overlay nav a {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2em;
+  color: #717171;
+  text-decoration-line: none;
+  padding: 1em 1em;
+}
+
+#pop-text {
+
+  color: #ffffff;
+
+}
+
+h1 {
+  margin: 0.2em 0;
+  color: #717171;
+  font-weight: 700;
+  font-size: 2.8em;
+}
+
+.ellipse {
+  margin: 16em auto 0;
+  background-color: #758AA1;
+  height: 16em;
+  width: 16em;
+  border-radius: 8em;
+  overflow: hidden;
+}
+
+.portrait {
+  margin: 2em 0.3em;
+  height: 14em;
+  width: 14em;
+  background-image: url('Images/Valex.png');
+  background-size: 100%;
+}

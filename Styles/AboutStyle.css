@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Montserrat:wght@400;700&family=Yanone+Kaffeesatz:wght@300;400&display=swap');
+
+
+body {
+    margin: 0;
+    background-color: #758AA1;
+    font-family: 'Inter';
+    font-style: normal;
+
+}
+
+.column1 {
+    float: left;
+    width: 25%;
+}
+
+.column2 {
+    float: right;
+    width: 75%;
+}
+
+h2 {
+    margin: 1.8em;
+    text-align: center;
+    color: #E2E2E2;
+
+
+}
+
+.column2 nav {
+    margin: 3em auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: block;
+
+
+}
+
+.column2 nav a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2em;
+    color: #717171;
+    text-decoration-line: none;
+    padding: 1em 0.5em;
+}
+
+#pop-text {
+
+    color:#E2E2E2;
+
+}
+
+p {
+    color: #E2E2E2;
+    font-weight: 400;
+    font-size: 1.15em;
+    width: 80%;
+}
+
+ul {
+    padding: 0 0 0.5em;
+    margin: 0;
+    color: #E2E2E2;
+    font-weight: 400;
+    font-size: 1.15em;
+}
+
+.ellipse {
+    margin: 0 auto;
+    background-color: #758AA1;
+    height: 12em;
+    width: 12em;
+    border-radius: 6em;
+    overflow: hidden;
+}
+
+.portrait {
+    margin: 1.5em 0.22em;
+    height: 12em;
+    width: 12em;
+    background-image: url('Images/Valex.png');
+    background-size: 100%;
+}
+.column2 table{
+    margin-top: 0.5em;
+    width: 28em;
+    text-align: center;
+    padding: 0.2em;
+    border-radius: 0.5em;
+
+    color:  #E2E2E2;
+    font-weight: 400;
+    font-size: 1em;
+
+    background-color: #717171;
+    opacity: 0.7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+#icon1,
+#icon2{
+    width: 15%;
+    
+}
+#icon1 img,
+#icon2 img{
+    width: 60%;
+}

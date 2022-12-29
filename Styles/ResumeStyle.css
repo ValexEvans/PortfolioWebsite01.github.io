@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Montserrat:wght@400;700&family=Yanone+Kaffeesatz:wght@300;400&display=swap');
+
+
+body {
+    margin: 0;
+    background-color: #758AA1;
+    font-family: 'Inter';
+    font-style: normal;
+    
+
+}
+.column1 {
+    float: top;
+    height: 20%;
+    
+
+}
+.column2 {
+    float: bottom;
+    height: 80%;
+    
+}
+h2 {
+    margin-top: 1.8em;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 3.5em;
+    
+    float: left;
+    width: 15%;
+    color: #E2E2E2;
+    
+    
+}
+.column1 nav {
+    margin-top: 3.0em;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+
+    float: right;
+    width: 75%;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+.column1 nav a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2em;
+    color: #717171;
+    text-decoration-line: none;
+    padding: 1em 0.5em;
+}
+#pop-text {
+
+    color:#E2E2E2;
+
+}
+.column2{
+    text-align: center;
+}
+
+.column2 img{
+    margin-top: -2em;
+    width: 70%;
+    display: inline-block;
+}
